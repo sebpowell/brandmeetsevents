@@ -1,0 +1,191 @@
+********************************************************************************
+DUPLICATOR INSTALL-LOG
+STEP1 START @ 01:57:28
+NOTICE: Do not post to public sites or forums
+********************************************************************************
+VERSION:	0.4.6
+PHP:		5.4.17
+PHP SAPI:	cgi-fcgi
+ZIPARCHIVE:	false
+SERVER:		Apache/2.2.25 (Unix) mod_ssl/2.2.25 OpenSSL/1.0.0-fips mod_bwlimited/1.4
+DOC ROOT:	/home/brandmee/public_html
+DOC ROOT 755:	true
+LOG FILE 644:	true
+BUILD NAME:	52669e751eecf6325_20131022_thecareerbusinesscareermanageme
+REQUEST URL:	http://bme.nvisage.uk.com/installer.php
+--------------------------------------
+POST DATA
+--------------------------------------
+Array
+(
+    [action_ajax] => 1
+    [action_step] => 1
+    [cache_path] => 
+    [cache_wp] => 
+    [dbcharset] => utf8
+    [dbclean] => 
+    [dbcollate] => utf8_general_ci
+    [dbhost] => localhost
+    [dbmake] => 1
+    [dbname] => brandmee_wp
+    [dbnbsp] => 
+    [dbuser] => brandmee_new
+    [logging] => 1
+    [package_name] => 527ca615558ce8376_20131108_brandmeetsevents_package.zip
+    [ssl_admin] => 
+    [ssl_login] => 
+    [zip_manual] => 1
+)
+
+********************************************************************************
+UNZIP & FILE SETUP
+********************************************************************************
+PACKAGE:	527ca615558ce8376_20131108_brandmeetsevents_package.zip
+SIZE:		266.33MB
+
+-package extraction is in manual mode-
+
+UPDATED SCRIPTS:
+	sql file:  '/home/brandmee/public_html/installer-data.sql'
+	wp-config: '/home/brandmee/public_html/wp-config.php'
+
+SECTION RUNTIME: 0.0740 sec.
+
+
+********************************************************************************
+DATABASE-ROUTINES
+********************************************************************************
+--------------------------------------
+SERVER ENVIROMENT
+--------------------------------------
+MYSQL VERSION:	5.5.32-cll
+TIMEOUT:	5000
+MAXPACK:	1048576
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+ERRORS FOUND:	0
+DROP TABLE:	Database already empty. Ready for install.
+QUERIES RAN:	2059
+
+wp_banner: (61)
+wp_commentmeta: (0)
+wp_comments: (0)
+wp_duplicator: (1)
+wp_gcb: (0)
+wp_links: (0)
+wp_options: (201)
+wp_postmeta: (1069)
+wp_posts: (537)
+wp_term_relationships: (64)
+wp_term_taxonomy: (25)
+wp_terms: (23)
+wp_usermeta: (60)
+wp_users: (2)
+Removed '22' cache/transient rows
+
+SECTION RUNTIME: 0.7572 sec.
+
+********************************************************************************
+STEP1 COMPLETE @ 01:57:29 - TOTAL RUNTIME: 0.8442 sec.
+********************************************************************************
+
+
+
+********************************************************************************
+DUPLICATOR INSTALL-LOG
+STEP2 START @ 01:59:54
+NOTICE: NOTICE: Do not post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	latin1
+CHARSET CLIENT:	utf8
+--------------------------------------
+POST DATA
+--------------------------------------
+Array
+(
+    [action_ajax] => 2
+    [action_step] => 2
+    [blogname] => LED
+    [dbcharset] => utf8
+    [dbcollate] => utf8_general_ci
+    [dbhost] => localhost
+    [dbname] => brandmee_wp
+    [dbuser] => brandmee_new
+    [json] => %7B%22pass%22%3A1%2C%22table_count%22%3A14%2C%22table_rows%22%3A2023%2C%22query_errs%22%3A0%7D
+    [logging] => 1
+    [package_name] => 527ca615558ce8376_20131108_brandmeetsevents_package.zip
+    [path_new] => /home/brandmee/public_html/
+    [path_old] => /var/www/clients/client8/web50/web/
+    [postguid] => 0
+    [siteurl] => http://bme.nvisage.uk.com
+    [url_new] => http://bme.nvisage.uk.com
+    [url_old] => http://led.wftest.co.uk/
+    [wp_password] => 
+    [wp_username] => 
+)
+
+--------------------------------------
+SCANNED TABLES
+--------------------------------------
+Array
+(
+    [0] => wp_banner
+    [1] => wp_commentmeta
+    [2] => wp_comments
+    [3] => wp_duplicator
+    [4] => wp_gcb
+    [5] => wp_links
+    [6] => wp_options
+    [7] => wp_postmeta
+    [8] => wp_posts
+    [9] => wp_term_relationships
+    [10] => wp_term_taxonomy
+    [11] => wp_terms
+    [12] => wp_usermeta
+    [13] => wp_users
+)
+
+--------------------------------------
+KEEP PLUGINS ACTIVE
+--------------------------------------
+Array
+(
+    [0] => acf-repeater/acf-repeater.php
+    [1] => advanced-custom-fields/acf.php
+    [2] => contact-form-7/wp-contact-form-7.php
+    [3] => display-widgets/display-widgets.php
+    [4] => duplicator/duplicator.php
+    [5] => jetpack/jetpack.php
+    [6] => mailchimp/mailchimp.php
+    [7] => remove-widget-titles/remove-widget-titles.php
+    [8] => tablepress/tablepress.php
+    [9] => wordpress-seo/wp-seo.php
+    [10] => wysiwyg-widgets/wysiwyg-widgets.php
+)
+
+--------------------------------------
+GLOBAL DB-REPLACE
+--------------------------------------
+SEARCH1:	'http://led.wftest.co.uk/' 
+REPLACE1:	'http://bme.nvisage.uk.com' 
+SEARCH2:	'/var/www/clients/client8/web50/web/' 
+REPLACE2:	'/home/brandmee/public_html/' 
+SCANNED:	Tables:14 | Rows:2022 | Cells:18472 
+UPDATED:	Tables:2 | Rows:600 |Cells:777 
+ERRORS:		0 
+RUNTIME:	1.802200 sec
+
+********************************************************************************
+START FINAL CLEANUP: 01:59:56
+********************************************************************************
+web configuration file was not renamed because the paths did not change.
+
+--------------------------------------
+WARNINGS
+--------------------------------------
+No Warnings Found
+
+********************************************************************************
+STEP 2 COMPLETE @ 01:59:56 - TOTAL RUNTIME: 1.8253 sec.
+********************************************************************************

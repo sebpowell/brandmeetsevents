@@ -1,0 +1,29 @@
+
+ul#sortable {
+    display:table;
+}
+
+ul#sortable li {
+    display:table-row;
+}
+
+ul#sortable li span.column {
+    display:table-cell;
+    position:relative;
+}
+
+ul#sortable li textarea, ul#sortable input[type=text] {
+    position:absolute;
+    z-index:9999;
+}
+
+table.bdy {
+    position:relative;
+}
+
+table.bdy td textarea {
+    width:250px;
+    height:120px;
+    z-index:1 !important;
+}
+
